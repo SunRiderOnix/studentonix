@@ -1,0 +1,473 @@
+
+
+
+/*******************************Index.html CSS********************************/
+body {
+width:100%;
+height:100%;
+margin:0;
+background: url("image/bg.jpg") no-repeat; 
+background-size: cover;
+
+}
+
+td{
+font-family: verdana;
+}
+
+
+button{
+	width:100%;
+	height:40px;
+	background-color: rgb(0, 153, 153);
+	border: 0;
+	font-size: 1.3vw;
+	font-family: Verdana;
+	color:rgb(255,255,255);
+	white-space: nowrap;
+
+}
+
+button:hover{
+	background-color: rgb(0, 204, 153);
+}
+button:active{
+	transform: translateX(23px);
+}
+
+.headlogo {
+	color: #ff3300;
+	text-shadow:2px 2px 5px #ff471a; 
+	font-size: 2.4vw;
+	margin-left:5%;
+	text-decoration: none;
+	white-space: nowrap;
+}
+#container {
+width: 90%;
+height: 100%;
+margin-left: 5%;
+margin-right:5%;
+min-width:;
+}
+
+#logo {
+width:30%;
+height:60px;
+min-height:60px;
+min-width:468px;
+float:left;
+margin-left: 2%; 
+}
+
+
+#headcontainer {
+	width: 100%;
+	height: 60px;
+	display:flex;
+	flex-wrap:nowrap;
+
+
+
+}
+
+#head {
+
+width:30%;
+height:60px;
+float:left;
+
+
+}
+
+
+.menu {
+width: 100%;
+height: 40px;
+min-width:468px;
+min-height:40px;
+display:flex;
+flex-wrap:nowrap;
+}
+
+.menu > div {
+  width: 18%;
+  margin-left:1%;
+  margin-right:1%;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+.logo2 { 
+height:60px;
+width:100%;
+min-height:60px; 
+min-width:468px;
+float:left;
+
+}
+
+
+#containercontent {
+width:100%;
+height:70vh;
+position: relative;
+}
+
+#gall {
+  position: relative;
+  padding-top: 10%;
+  -moz-user-select: none; user-select: none;
+}
+
+#gall img {
+  position: absolute;
+  top: 50%;
+  left: 6.5%;
+  max-width: 50%;
+  max-height: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  transition: .2s;
+}
+
+#gall img:nth-child(4n-2) {left: 19%;}
+#gall img:nth-child(4n-1) {left: 31.5%;}
+#gall img:nth-child(4n) {left: 44%;}
+#gall img:nth-child(n+5) {left: 56.5%;}
+#gall img:nth-child(n+6) {left: 69%;}
+#gall img:nth-child(n+7) {left: 81.5%;;}
+#gall img:nth-child(n+8) {left: 94%;}
+
+
+
+#gall img:hover {
+  position: absolute;
+
+
+  z-index: 1;
+  max-width: 150%;
+  max-height: 150%;
+
+}
+
+
+
+#container1 {
+	height: 81.8%;
+	width:50%;
+	position: relative;
+	float:left;
+	background-color: rgba(255, 255, 255,0.8);
+	min-height: 330px;
+	}
+
+#main {
+	font-family: verdana;
+	font-size: 1.5vmin;
+	color:black;
+	line-height: 1;
+	margin-bottom:0;
+	margin-top:10px;
+	margin-left:40px ;
+	border-left: 2px solid red;
+	text-decoration: none;
+
+}
+#main:hover{
+text-decoration: underline;
+color:black;
+}
+.news {
+	font-family: verdana;
+	font-size: 2.2vmin;
+	line-height: 1;
+	color:#333333;
+	margin-bottom:0;
+	margin-top:10px;
+	margin-left:10;
+	width: 82%;
+
+
+}
+#newslink{
+	text-decoration: none;
+	color: black;
+}
+#newslink:hover{
+	color: black;
+	text-decoration:underline;
+}
+
+
+.data {
+	font-family: verdana;
+	font-size: 1.2vmin;
+	color:#737373;
+	line-height: 1;
+	margin-bottom:0;
+	margin-top:10px;
+	margin-left:10;
+
+	max-height: 3vh;
+}
+.undernews {
+	font-family: verdana;
+	font-size: 1.7vmin;
+	color:#595959;
+	line-height: 1;
+	margin-bottom:0.5;
+	margin-top: 10px;
+	margin-left:10;
+	width: 80%;
+
+	max-height: 3vh;
+}
+
+#lcontainer {
+	margin:10px;
+	margin-top:0px;
+	max-height: 70%;
+	max-width:  70%;
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+	height: 35
+	vmin;
+	width: 50vmin;
+
+
+}
+#container2 {
+	height: 81.8%;
+	width:50%;
+	background-color: rgba(255, 255, 255,0.8);
+	float:left;
+	min-height: 330px;
+
+
+}
+#container2-1 {
+	height: 81.8%;
+	width:50%;
+
+	float:left;
+
+
+}
+#container2-3 {
+	height:30px;
+	width:100%;
+
+	float:left;
+
+
+}
+#container2-2 {
+	height: 81.8%;
+	width:50%;
+
+	float:right;
+
+
+}
+
+#footer {
+	margin-top:5px;
+	width: 100%;
+	height: 7%;
+	background-color: rgba(255, 255, 255,0.8);
+	float:left;
+	min-height: 7%;
+}
+
+#footertext{
+	margin:0;
+	font-size: 1.2vw;
+
+	
+}
+#films {
+	font-size: 0.81vw;
+	max-height: 15px;
+}
+
+
+
+/*************************Page1.html CSS*******************************/
+
+#container4 {
+	height: 81.8%;
+	width:35%;
+	background-color: rgba(255, 255, 255,0.8);
+	float:left;
+	min-height: 300px;
+}
+#container4-1 {
+	height: 50%;
+	width:100%;
+
+	float:left;
+
+
+
+}
+
+#container4-2 {
+	height: 50%;
+	width:100%;
+
+	float:right;
+
+
+
+}
+
+#container5 {
+	height: 81.8%;
+	width:35%;
+	background-color: rgba(255, 255, 255,0.8);
+	float:left;
+	min-height: 300px;
+
+
+}
+
+#container5-1 {
+	height: 50%;
+	width:100%;
+
+	float:left;
+}
+
+
+#container5-2 {
+	height: 50%;
+	width:100%;
+
+	float:left;
+
+}
+
+#newsimg {
+	margin:10px;
+	margin-top:0px;
+	max-height: 50%;
+	max-width:  50%;
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+
+
+}
+#newsimg img:hover {
+  position: absolute;
+
+
+  z-index: 1;
+  max-width: 150%;
+  max-height: 150%;
+
+}
+
+.pnews {
+	font-family: verdana;
+	font-size: 1.5vh;
+	line-height: 1;
+	color:#333333;
+	margin-bottom:0;
+	margin-top:2px;
+	margin-left:10;
+	width: 82%;
+	display: block;
+
+
+}
+#pnewslink{
+	text-decoration: none;
+	color: black;
+}
+#pnewslink:hover{
+	color: black;
+	text-decoration:underline;
+}
+
+
+.pdata {
+	font-family: verdana;
+	font-size: 1vh;
+	color:#737373;
+	line-height: 1;
+	margin-bottom:0;
+	margin-top:2px;
+	margin-left:10;
+	min-height: 1.5vh;
+}
+.pundernews {
+	font-family: verdana;
+	font-size: 1.2vh;
+	color:#595959;
+	line-height: 1;
+	margin-bottom:0.5;
+	margin-top: 2px;
+	margin-left:10;
+	width: 80%;
+	display: block;
+
+}
+
+#container6 {
+	height: 81.8%;
+	width:30%;
+	background-color: rgba(255, 255, 255,0.8);
+	float:left;
+	min-height: 300px;
+}
+
+.sixpnews {
+	font-family: verdana;
+	font-size: 1.3vmin;
+	line-height: 1;
+	color:#333333;
+	margin-bottom:0;
+	margin-top:2px;
+	margin-left:10;
+	width: 82%;
+	display: block;
+
+
+}
+#sixpnewslink{
+	text-decoration: none;
+	color: black;
+}
+#sixpnewslink:hover{
+	color: black;
+	text-decoration:underline;
+}
+
+
+.sixpdata {
+	font-family: verdana;
+	font-size: 0.7vmin;
+	color:#737373;
+	line-height: 1;
+	margin-bottom:0;
+	margin-top:2px;
+	margin-left:10;
+
+}
+.sixpundernews {
+	font-family: verdana;
+	font-size: 1.2vmin;
+	color:#595959;
+	line-height: 1;
+	margin-bottom:0.5;
+	margin-top: 2px;
+	margin-left:10;
+	width: 80%;
+	display: block;
+
+}
